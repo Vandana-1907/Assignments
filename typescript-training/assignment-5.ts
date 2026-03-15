@@ -12,7 +12,8 @@ for (let i=0; i<empName.length; i++){
     let variablePay = hike(baseSalary[i], rating[i], experience[i]);
     console.log("\nVariable Pay:", variablePay);
     let hikeCal : number = variablePay/baseSalary[i]*100;
-    console.log(empName[i], " & Hike % is : ",variablePay/baseSalary[i]*100);
+    console.log(empName[i], " & Hike % is : ",variablePay/
+        *100);
      //hikeMap.set(empName[i], hikeCal);
      //console.log(hikeMap);
     console.log("----------------------------------------------------------\n");
